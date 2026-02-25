@@ -1,6 +1,6 @@
 import logging
 
-from core_logger.port import Logger
+from core_log_engine.port import Logger
 
 
 class AppLogger(Logger):
