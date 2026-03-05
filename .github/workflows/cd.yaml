@@ -14,3 +14,7 @@ jobs:
   deploy-gitub-pages:
     uses: ./.github/workflows/github-page.yaml
     secrets: inherit
+    permissions:
+      contents: read
+      pages: write      # El padre debe habilitar la capacidad de escribir en Pages
+      id-token: write
