@@ -2,6 +2,7 @@ name: CD Pipeline
 
 on:
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   # Llamada al módulo de publicación (solo si hay un tag)

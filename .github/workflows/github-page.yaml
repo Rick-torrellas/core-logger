@@ -2,6 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   workflow_call: # Esto permite que otros workflows lo ejecuten
+  workflow_dispatch:
 
 permissions:
   contents: read
