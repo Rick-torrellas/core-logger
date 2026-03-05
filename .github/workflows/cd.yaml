@@ -11,3 +11,6 @@ jobs:
       contents: read    # Necesario para leer el código
       id-token: write   # El que te está pidiendo el error
    uses: ./.github/workflows/pip-publish.yaml
+  deploy-gitub-pages:
+    uses: ./.github/workflows/github-page.yaml
+    secrets: inherit
